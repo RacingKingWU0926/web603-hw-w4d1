@@ -9,9 +9,23 @@ Create a React application named `react-weather-app` by
 $ npx create-react-app react-weather-app
 ```
 
-Install `i18n-iso-countries`:
+Install the following dependencies:
+
+- `i18n-iso-countries`
 ```bash
 $ npm install i18n-iso-countries
+```
+
+and then Bootstrap:
+```bash
+$ npm install bootstrap
+```
+
+and then Font Awesome:
+```bash
+$ npm npm i --save @fortawesome/fontawesome-svg-core
+$ npm install --save @fortawesome/free-solid-svg-icons
+$ npm install --save @fortawesome/react-fontawesome
 ```
 
 ### Step 2: Get the API Key from Open Weather Map

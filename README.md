@@ -28,7 +28,7 @@ $ npm install --save @fortawesome/free-solid-svg-icons
 $ npm install --save @fortawesome/react-fontawesome
 ```
 
-### Step 2: Get the API Key from Open Weather Map
+### Step 2: Get the API Key and URL from Open Weather Map
 
 Sign in or create an account at https://openweathermap.org/.
 
@@ -39,10 +39,19 @@ In the project root, create a `.env` file and paste the API key as
 REACT_APP_API_KEY=<paste your key>
 ```
 
-Next, grab the URL to connect to the Open Weather Map API. As of January 2024, the latest version of Open Weather Map is 3.0, and documentation is available at https://openweathermap.org/api/one-call-3.
+Next, grab the URL to connect to the Open Weather Map API.
 
-However, the project will **get weather by city name and country code**. The corresponding API found is as follows:
+As of January 2024, the latest version of Open Weather Map is 3.0, and documentation is available at https://openweathermap.org/api/one-call-3. However, the project will **get weather by city name and country code**. The corresponding API found is as follows:
 ```
 https://api.openweathermap.org/data/2.5/weather?q={city name},{country code}&appid={API key}
 ```
 at https://openweathermap.org/current (look for "Built-in API request by city name").
+
+## Application Preview
+
+### Home page (showing the weather of Irvine, US)
+![app-start](screenshots/app-start.png)
+
+### Search for the weather of another city:
+
+![app-search](screenshots/app-search.png)
